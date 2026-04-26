@@ -535,6 +535,12 @@ nav{
     padding: 40px 20px;
     margin: auto;
 }
+.criminal-hero {
+    background-color: var(--bg-soft);
+    padding: 120px 20px 80px;
+}
+
+
 /* container */
 .container {
   max-width: 1200px;
@@ -652,7 +658,7 @@ section {
 
 /* circle */
 .circle {
-  min-width: 40px;
+  min-width: 60px;
   height: 40px;
   border-radius: 50%;
   background: var(--accent);
@@ -693,13 +699,13 @@ section {
   }
 
   .circle {
-    min-width: 60px;
-    height: 60px;
-    font-size: 18px;
+    min-width: 90px;
+    height: 90px;
+    font-size: 25px;
   }
 
   .content h4 {
-    font-size: 22px;
+    font-size: 25px;
   }
 
   .content p {
