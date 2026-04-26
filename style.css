@@ -64,6 +64,7 @@ h1{
     font-family: var(--font-main);
     font-size: clamp(14px, 1.5vw, 16px);
     line-height: 1.7;
+    margin-bottom: 15px;
 }
 .card h3{
     font-family: var(--font-main);
