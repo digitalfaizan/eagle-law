@@ -525,3 +525,184 @@ nav{
     
   }
 }
+
+
+/*practice pages*/
+
+.service{
+    display: flex;
+    width: 100%;
+    padding: 40px 20px;
+    margin: auto;
+}
+/* container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.narrow {
+  max-width: 700px;
+}
+
+/* HERO */
+.service-hero {
+  padding: 120px 20px 60px;
+}
+
+.service-hero h1 {
+  font-size: clamp(32px, 5vw, 56px);
+  line-height: 1.2;
+}
+.narrow-p{
+    margin-bottom: 15px;
+}
+.subtext {
+  margin: 20px 0;
+  color: var(--text-secondary);
+}
+
+/* BUTTON */
+.btn-primary {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 22px;
+  background: var(--accent);
+  color: #000;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 20px;
+}
+
+/* CONTENT BLOCK */
+.content-block {
+  margin-bottom: 40px;
+}
+
+.content-block h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* LIST */
+.service-list ul {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.service-list li {
+  margin-bottom: 10px;
+}
+
+/* PROCESS */
+.process-steps {
+  margin-top: 20px;
+  display: grid;
+  gap: 10px;
+  font-weight: 500;
+}
+
+/* CTA */
+.service-cta {
+  text-align: left;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  section {
+    padding: 60px 20px;
+  }
+}
+
+.process {
+  padding: 100px 20px;
+}
+
+/* timeline container */
+.timeline {
+  position: relative;
+  margin-top: 40px;
+  padding-left: 30px;
+}
+
+/* vertical line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: var(--border-dark);
+}
+
+/* each item */
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+/* circle */
+.circle {
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #000;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+/* text */
+.content h4 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.content p {
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 1.6;
+}
+@media (min-width: 1024px) {
+
+  .timeline {
+    padding-left: 50px;
+  }
+
+  .timeline::before {
+    left: 20px;
+    width: 3px;
+  }
+
+  .timeline-item {
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+
+  .circle {
+    min-width: 60px;
+    height: 60px;
+    font-size: 18px;
+  }
+
+  .content h4 {
+    font-size: 22px;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+}
