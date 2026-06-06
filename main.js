@@ -22,7 +22,7 @@ document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
 
 // WhatsApp floating button
 (function () {
-  const phone = "91XXXXXXXXXX"; // ← replace with real number
+  const phone = "917011692934"; // ← replace with real number
   const btn = document.createElement("a");
   btn.href = `https://wa.me/${phone}?text=Hello%2C%20I%20need%20legal%20consultation.`;
   btn.target = "_blank";
