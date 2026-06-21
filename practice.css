@@ -152,7 +152,7 @@ section{
 /*header*/
 header {
     width: 100%;
-    min-height: 80px;
+    min-height: 100px;
     background-color: var(--secondary-bg);
     padding: 10px 25px;
     top: 0;
