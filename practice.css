@@ -174,11 +174,40 @@ nav{
     align-items: center;
     height: 100%;
     padding: 0;
+    border-radius: 25px;
+    gap: 4px;
+    flex-direction: column;
+    text-decoration: none;
 }
+
 .logo img{
     display: block;
     height: 120px;
-    width: 100%;
+    width: auto;
+    border-radius: 50px;
+    margin-bottom: 8px;
+}
+.logo-heading{
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #b89867;
+    line-height: 1;
+}
+
+.logo-subheading{
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 1.2;
+}
+
+.logo-last-heading{
+    font-size: 0.65rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #b89867;
 }
 .nav-links{
     display: flex;
@@ -436,6 +465,9 @@ nav{
     display: block;
     border-radius: 25px;
     box-shadow: var(--shadow-soft);
+}
+.about-btn{
+    margin-top: 15px;
 }
 .bull-points{
     font-family: var(--font-main);
